@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/laser_beam.mp3-05c96ad8867b0b1f2ee8d51bb4426e38.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/effects/laser_beam.mp3"
+dest_files=[ "res://.import/laser_beam.mp3-05c96ad8867b0b1f2ee8d51bb4426e38.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

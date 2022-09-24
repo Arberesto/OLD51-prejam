@@ -1,0 +1,51 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "DragonFoe",
+"language": "GDScript",
+"path": "res://src/player/player.gd"
+}, {
+"base": "Node2D",
+"class": "Game1",
+"language": "GDScript",
+"path": "res://src/game_scenes/Game1.gd"
+}, {
+"base": "Node2D",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://src/skills/skill.gd"
+}, {
+"base": "Node2D",
+"class": "ZCorrector",
+"language": "GDScript",
+"path": "res://src/utils/z_index_corrector.gd"
+} ]
+_global_script_class_icons={
+"DragonFoe": "",
+"Game1": "",
+"Skill": "",
+"ZCorrector": ""
+}
+
+[application]
+
+config/name="WorkingClones"
+run/main_scene="res://src/game_scenes/Game1.tscn"
+config/icon="res://icon.png"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/maw.mp3-51b3569ef325919342796690930e9864.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/effects/maw.mp3"
+dest_files=[ "res://.import/maw.mp3-51b3569ef325919342796690930e9864.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

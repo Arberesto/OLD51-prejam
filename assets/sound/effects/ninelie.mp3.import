@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ninelie.mp3-b45144b12321740cd0b3b9239c25acd2.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/effects/ninelie.mp3"
+dest_files=[ "res://.import/ninelie.mp3-b45144b12321740cd0b3b9239c25acd2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

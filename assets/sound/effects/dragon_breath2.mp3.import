@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dragon_breath2.mp3-dcccb2ead6aa4ab288673921dd08948f.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/effects/dragon_breath2.mp3"
+dest_files=[ "res://.import/dragon_breath2.mp3-dcccb2ead6aa4ab288673921dd08948f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
