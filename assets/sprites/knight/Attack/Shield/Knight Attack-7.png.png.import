@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Knight Attack-7.png.png-b6bf073a61f2eba0435ea1cfbf0b3163.stex"
+path="res://.import/Knight Attack-7.png.png-b789ed19201605e17dfaf80b7a481bf8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/knight/Attack/Shield/Knight Attack-7.png.png"
-dest_files=[ "res://.import/Knight Attack-7.png.png-b6bf073a61f2eba0435ea1cfbf0b3163.stex" ]
+source_file="res://Assets/sprites/knight/Attack/Shield/Knight Attack-7.png.png"
+dest_files=[ "res://.import/Knight Attack-7.png.png-b789ed19201605e17dfaf80b7a481bf8.stex" ]
 
 [params]
 

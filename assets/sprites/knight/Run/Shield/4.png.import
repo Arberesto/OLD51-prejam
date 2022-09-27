@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/4.png-52592b163d110a6444e481e856812ee5.stex"
+path="res://.import/4.png-70ad3709e7af46abfba6da3d9f66f740.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/knight/Run/Shield/4.png"
-dest_files=[ "res://.import/4.png-52592b163d110a6444e481e856812ee5.stex" ]
+source_file="res://Assets/sprites/knight/Run/Shield/4.png"
+dest_files=[ "res://.import/4.png-70ad3709e7af46abfba6da3d9f66f740.stex" ]
 
 [params]
 

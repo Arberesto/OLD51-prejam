@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PlayerShoot-4.png.png-726fbf8e918bf2361885d02af44159a1.stex"
+path="res://.import/PlayerShoot-4.png.png-41f3b0e62cafef3dd9ea232e0b688ade.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/knight/Shoot/PlayerShoot-4.png.png"
-dest_files=[ "res://.import/PlayerShoot-4.png.png-726fbf8e918bf2361885d02af44159a1.stex" ]
+source_file="res://Assets/sprites/knight/Shoot/PlayerShoot-4.png.png"
+dest_files=[ "res://.import/PlayerShoot-4.png.png-41f3b0e62cafef3dd9ea232e0b688ade.stex" ]
 
 [params]
 

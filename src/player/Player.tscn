@@ -1,120 +1,33 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://src/player/player.gd" type="Script" id=2]
-[ext_resource path="res://src/utils/z_index_corrector.gd" type="Script" id=5]
-[ext_resource path="res://src/skills/MawStrike/MawSkill.gd" type="Script" id=8]
-[ext_resource path="res://src/player/Maw.gd" type="Script" id=9]
-[ext_resource path="res://assets/sound/background/backMusic1.mp3" type="AudioStream" id=10]
-[ext_resource path="res://assets/sound/effects/maw.mp3" type="AudioStream" id=11]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/10.png" type="Texture" id=12]
-[ext_resource path="res://assets/sprites/knight/Dodge/DodgeLeft.png" type="Texture" id=13]
-[ext_resource path="res://assets/sprites/knight/Dodge/DodgeRight.png" type="Texture" id=14]
-[ext_resource path="res://assets/sprites/knight/Dodge/DodgeDown.png" type="Texture" id=15]
-[ext_resource path="res://assets/sprites/knight/Idle/Sword/Idle 2.png" type="Texture" id=16]
-[ext_resource path="res://assets/sprites/knight/Idle/Sword/Idle 1.png" type="Texture" id=17]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/1.png" type="Texture" id=18]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/3.png" type="Texture" id=19]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/4.png" type="Texture" id=20]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/2.png" type="Texture" id=21]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/5.png" type="Texture" id=22]
-[ext_resource path="res://assets/sprites/knight/Run/Sword/6.png" type="Texture" id=23]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/6.png" type="Texture" id=24]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/8.png" type="Texture" id=25]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/9.png" type="Texture" id=27]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/7.png" type="Texture" id=28]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/1.png" type="Texture" id=29]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/2.png" type="Texture" id=30]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/3.png" type="Texture" id=31]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/4.png" type="Texture" id=32]
-[ext_resource path="res://assets/sprites/knight/Attack/Sword/5.png" type="Texture" id=33]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/2.png" type="Texture" id=1]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/5.png" type="Texture" id=2]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/3.png" type="Texture" id=3]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/4.png" type="Texture" id=4]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/6.png" type="Texture" id=5]
+[ext_resource path="res://src/Player/Player.gd" type="Script" id=6]
+[ext_resource path="res://Assets/sprites/knight/Idle/Sword/Idle 2.png" type="Texture" id=7]
+[ext_resource path="res://Assets/sprites/knight/Idle/Sword/Idle 1.png" type="Texture" id=8]
+[ext_resource path="res://Assets/sprites/knight/Run/Sword/1.png" type="Texture" id=18]
 
-[sub_resource type="SpriteFrames" id=6]
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 22, 34.25 )
+
+[sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 17 ), ExtResource( 16 ) ],
+"frames": [ ExtResource( 18 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "Run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 2.0
-}, {
-"frames": [ ExtResource( 21 ), ExtResource( 18 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 23 ) ],
-"loop": true,
-"name": "Run",
-"speed": 6.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 24 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 27 ), ExtResource( 12 ) ],
-"loop": false,
-"name": "Attack_Sword",
-"speed": 18.0
-}, {
-"frames": [ ExtResource( 15 ), ExtResource( 14 ), ExtResource( 13 ), ExtResource( 15 ) ],
-"loop": true,
-"name": "Dodge",
-"speed": 16.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 100, 216.801 )
-
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 150.435, 268.547 )
-
-[sub_resource type="Animation" id=3]
-resource_name = "attack_sword"
-length = 0.5
-tracks/0/type = "value"
-tracks/0/path = NodePath("AnimatedSprite:animation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ "Attack_Sword" ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("AnimatedSprite:playing")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ true ]
-}
-
-[sub_resource type="Animation" id=7]
-resource_name = "dodge"
-tracks/0/type = "value"
-tracks/0/path = NodePath("AnimatedSprite:animation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ "Dodge" ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("AnimatedSprite:playing")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ true ]
-}
-
 [sub_resource type="Animation" id=4]
-resource_name = "idle_sword"
-loop = true
+resource_name = "Idle"
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
 tracks/0/interp = 1
@@ -127,21 +40,9 @@ tracks/0/keys = {
 "update": 1,
 "values": [ "Idle" ]
 }
-tracks/1/type = "value"
-tracks/1/path = NodePath("AnimatedSprite:playing")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ true ]
-}
 
-[sub_resource type="Animation" id=5]
-loop = true
+[sub_resource type="Animation" id=3]
+resource_name = "Run"
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
 tracks/0/interp = 1
@@ -168,59 +69,20 @@ tracks/1/keys = {
 }
 
 [node name="Player" type="KinematicBody2D"]
-scale = Vector2( 0.1, 0.1 )
-z_index = 2
-collision_layer = 3
-collision_mask = 2147483668
-script = ExtResource( 2 )
-
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -10, 19.9999 )
-scale = Vector2( 0.949736, 0.940282 )
-frames = SubResource( 6 )
-animation = "Idle"
-frame = 1
-playing = true
+position = Vector2( 114, 552 )
+script = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -9.99999, 40.1145 )
-z_index = 2
+position = Vector2( -0.374977, -0.124977 )
 shape = SubResource( 1 )
 
-[node name="Maw" type="Area2D" parent="."]
-collision_mask = 28
-script = ExtResource( 9 )
-
-[node name="MawCollision" type="CollisionShape2D" parent="Maw"]
-position = Vector2( 90.4351, -11.4532 )
-z_index = 2
-shape = SubResource( 2 )
-disabled = true
-
-[node name="Skills" type="Node2D" parent="."]
-
-[node name="MawSkill" type="Node2D" parent="Skills"]
-script = ExtResource( 8 )
-
-[node name="MawAudioPlayer" type="AudioStreamPlayer2D" parent="Skills/MawSkill"]
-stream = ExtResource( 11 )
-volume_db = 2.0
-area_mask = 0
-
-[node name="ZCorrector" type="Node2D" parent="."]
-z_index = 2
-script = ExtResource( 5 )
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource( 10 )
-area_mask = 0
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 4.62502, -4.37497 )
+scale = Vector2( 0.150879, 0.150879 )
+frames = SubResource( 2 )
+animation = "Idle"
+playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/attack_sword = SubResource( 3 )
-anims/dodge = SubResource( 7 )
-anims/idle_sword = SubResource( 4 )
-anims/run_sword = SubResource( 5 )
-
-[connection signal="body_entered" from="Maw" to="Maw" method="_on_Maw_body_entered"]
-[connection signal="hit_begins" from="Skills/MawSkill" to="." method="_on_MawSkill_hit_begins"]
-[connection signal="hit_over" from="Skills/MawSkill" to="." method="_on_MawSkill_hit_over"]
+anims/Idle = SubResource( 4 )
+anims/Run = SubResource( 3 )

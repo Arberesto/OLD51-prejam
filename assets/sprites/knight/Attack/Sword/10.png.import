@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/10.png-c7bb8c460fedaef3cad6460486a0e2bc.stex"
+path="res://.import/10.png-44ffad3cf3eff80a1e60e5a34888f4e3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/knight/Attack/Sword/10.png"
-dest_files=[ "res://.import/10.png-c7bb8c460fedaef3cad6460486a0e2bc.stex" ]
+source_file="res://Assets/sprites/knight/Attack/Sword/10.png"
+dest_files=[ "res://.import/10.png-44ffad3cf3eff80a1e60e5a34888f4e3.stex" ]
 
 [params]
 
