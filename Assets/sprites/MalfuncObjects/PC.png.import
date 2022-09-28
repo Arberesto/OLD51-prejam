@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PC.png-eae97e80050ae09a3ed18a0178f50162.stex"
+path="res://.import/PC.png-cbc5ce49de13660f389931a68e2c609d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/MalfuncObjects/PC.png"
-dest_files=[ "res://.import/PC.png-eae97e80050ae09a3ed18a0178f50162.stex" ]
+source_file="res://assets/sprites/MalfuncObjects/PC.png"
+dest_files=[ "res://.import/PC.png-cbc5ce49de13660f389931a68e2c609d.stex" ]
 
 [params]
 

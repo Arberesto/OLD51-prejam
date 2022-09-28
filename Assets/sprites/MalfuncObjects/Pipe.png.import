@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pipe.png-eab781ba013fb17d6fa89d3eb96a75bf.stex"
+path="res://.import/Pipe.png-5f02ca402733d15f35db1c1654c8836c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/MalfuncObjects/Pipe.png"
-dest_files=[ "res://.import/Pipe.png-eab781ba013fb17d6fa89d3eb96a75bf.stex" ]
+source_file="res://assets/sprites/MalfuncObjects/Pipe.png"
+dest_files=[ "res://.import/Pipe.png-5f02ca402733d15f35db1c1654c8836c.stex" ]
 
 [params]
 

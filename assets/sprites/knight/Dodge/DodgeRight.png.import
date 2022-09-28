@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/DodgeRight.png-5f768742b9ca3d7ad571899d61635ebf.stex"
+path="res://.import/DodgeRight.png-db22ddb6b38e4b629e435ec24161d279.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/knight/Dodge/DodgeRight.png"
-dest_files=[ "res://.import/DodgeRight.png-5f768742b9ca3d7ad571899d61635ebf.stex" ]
+source_file="res://assets/sprites/knight/Dodge/DodgeRight.png"
+dest_files=[ "res://.import/DodgeRight.png-db22ddb6b38e4b629e435ec24161d279.stex" ]
 
 [params]
 

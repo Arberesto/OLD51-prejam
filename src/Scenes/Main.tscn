@@ -12,13 +12,18 @@ extents = Vector2( 516.5, 12.5 )
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 5 )
 
-[node name="Player" parent="." instance=ExtResource( 4 )]
+[node name="BrokenList" type="Node2D" parent="."]
 
-[node name="PC" parent="." instance=ExtResource( 2 )]
+[node name="Pipe" parent="BrokenList" instance=ExtResource( 3 )]
+position = Vector2( 680, 537 )
+
+[node name="PC" parent="BrokenList" instance=ExtResource( 2 )]
 position = Vector2( 247, 537 )
 
-[node name="Pipe" parent="." instance=ExtResource( 3 )]
-position = Vector2( 680, 537 )
+[node name="Pipe2" parent="BrokenList" instance=ExtResource( 3 )]
+position = Vector2( 847, 539 )
+
+[node name="Player" parent="." instance=ExtResource( 4 )]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

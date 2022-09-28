@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1.png-109e6b32924813d4dd44b0a54e9675c6.stex"
+path="res://.import/1.png-5f1c5580bf60772cf738632276f6569c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/knight/Crouch/Sword/1.png"
-dest_files=[ "res://.import/1.png-109e6b32924813d4dd44b0a54e9675c6.stex" ]
+source_file="res://assets/sprites/knight/Crouch/Sword/1.png"
+dest_files=[ "res://.import/1.png-5f1c5580bf60772cf738632276f6569c.stex" ]
 
 [params]
 

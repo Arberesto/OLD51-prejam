@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bound.png-4c9a661be60634f682f20d599e7b2314.stex"
+path="res://.import/bound.png-0248296e2d0873f52d79aa258a16dc99.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Scene/bound.png"
-dest_files=[ "res://.import/bound.png-4c9a661be60634f682f20d599e7b2314.stex" ]
+source_file="res://assets/sprites/Scene/bound.png"
+dest_files=[ "res://.import/bound.png-0248296e2d0873f52d79aa258a16dc99.stex" ]
 
 [params]
 

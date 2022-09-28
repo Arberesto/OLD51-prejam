@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/WhatsApp Image 2019-05-10 at 18.26.11 (1).png-7a17720eee0ba7f471b937371f54cae6.stex"
+path="res://.import/WhatsApp Image 2019-05-10 at 18.26.11 (1).png-1d6e49a744575c100217ac6e7ab4ae10.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/knight/Jump/shield/WhatsApp Image 2019-05-10 at 18.26.11 (1).png"
-dest_files=[ "res://.import/WhatsApp Image 2019-05-10 at 18.26.11 (1).png-7a17720eee0ba7f471b937371f54cae6.stex" ]
+source_file="res://assets/sprites/knight/Jump/shield/WhatsApp Image 2019-05-10 at 18.26.11 (1).png"
+dest_files=[ "res://.import/WhatsApp Image 2019-05-10 at 18.26.11 (1).png-1d6e49a744575c100217ac6e7ab4ae10.stex" ]
 
 [params]
 

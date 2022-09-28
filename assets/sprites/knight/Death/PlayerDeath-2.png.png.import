@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PlayerDeath-2.png.png-683bec866adfa8ba97a89991e7551721.stex"
+path="res://.import/PlayerDeath-2.png.png-eb091fb2aa1146ae003a0a26294ef354.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/knight/Death/PlayerDeath-2.png.png"
-dest_files=[ "res://.import/PlayerDeath-2.png.png-683bec866adfa8ba97a89991e7551721.stex" ]
+source_file="res://assets/sprites/knight/Death/PlayerDeath-2.png.png"
+dest_files=[ "res://.import/PlayerDeath-2.png.png-eb091fb2aa1146ae003a0a26294ef354.stex" ]
 
 [params]
 

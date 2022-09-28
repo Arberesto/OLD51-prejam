@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle 1.png-b97000a3bd33f0ea96f4457ffd4d403f.stex"
+path="res://.import/Idle 1.png-1c5e33a767d0acb7e74bf81f02780fd5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/knight/Idle/Sword/Idle 1.png"
-dest_files=[ "res://.import/Idle 1.png-b97000a3bd33f0ea96f4457ffd4d403f.stex" ]
+source_file="res://assets/sprites/knight/Idle/Sword/Idle 1.png"
+dest_files=[ "res://.import/Idle 1.png-1c5e33a767d0acb7e74bf81f02780fd5.stex" ]
 
 [params]
 

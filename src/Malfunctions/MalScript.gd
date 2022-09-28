@@ -1,5 +1,10 @@
 extends Area2D
 
+class_name BrokenObject
+
+var broken = false
+var speed_modifier = 8
+
 onready var light = $Light
 onready var timer = $Timer
 onready var label = $Label
@@ -24,7 +29,7 @@ func _handle_repair(delta):
 	if progress.visible == true:
 		if Input.is_action_just_pressed(repair_key) and player_enter_state == 1:
 			progress.value+=1.5
-		progress.value-=delta
+		progress.value-=delta * speed_modifier
 	
 
 
@@ -54,7 +59,9 @@ func _on_ProgressBar_value_changed(value):
 		label.visible=0
 		progress.value=50
 		timer.start(random.randi_range(5,8))
-	#if value == 0:
-		#game_over
+	if value == 0:
+		broken = true
 
-	
+
+func GetStatus():
+	return broken
