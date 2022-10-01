@@ -31,12 +31,12 @@ func _handle_repair(delta):
 #signals
 #Emit light when player enters
 func _on_Node2D_body_entered(body):
-	if body is Player:
+	if body is Hunter:
 		light.visible = 1
 		player_enter_state = 1
 #Stop emiting light
 func _on_Node2D_body_exited(_body):
-	if _body is Player:
+	if _body is Hunter:
 		player_enter_state = 0
 	light.visible = 0
 
