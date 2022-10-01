@@ -5,7 +5,7 @@ class_name Vamp
 
 const SPEED := 200
 const JUMP_STRENGTH := -300.0
-const damage = 50
+const damage = 20
 const dodge_cd_value = 5
 
 var GRAVITY := 600
@@ -84,7 +84,7 @@ func _handle_movement(delta):
 	#player.instance()
 func _handle_skills():
 	if Input.is_action_just_pressed("vamp_attack") and (player_substate in attack_allowed_substates):
-		attack_time.start(2)
+		attack_time.start(0.5)
 		attack_hitbox.monitoring = 1
 		player_substate = "attacking"
 		animation.play("Attack")

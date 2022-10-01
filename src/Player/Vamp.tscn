@@ -29,11 +29,6 @@ extents = Vector2( 22, 34.25 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 12 ), ExtResource( 17 ), ExtResource( 14 ), ExtResource( 9 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 13 ) ],
-"loop": true,
-"name": "Attack",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 20 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "Dodge",
@@ -48,6 +43,11 @@ animations = [ {
 "loop": true,
 "name": "Run",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 17 ), ExtResource( 14 ), ExtResource( 9 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "Attack",
+"speed": 20.0
 } ]
 
 [sub_resource type="Animation" id=6]
@@ -164,7 +164,6 @@ position = Vector2( 4.62502, -4.37497 )
 scale = Vector2( 0.150879, 0.150879 )
 frames = SubResource( 2 )
 animation = "Idle"
-frame = 1
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
